@@ -1,0 +1,8 @@
+{
+    "/api/": "/",
+    "/api/Questions/GetQuestions": "/Questions",
+    "/api/Questions/get/:id": "/Questions/:id",
+    "/api/Questions/create": "/Questions",
+    "/api/Questions/update/:id": "/Questions/:id",
+    "/api/Questions/delete/:id": "/Questions/:id"
+}

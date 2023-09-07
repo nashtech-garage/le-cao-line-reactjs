@@ -1,0 +1,19 @@
+version: "3.4"
+
+services:
+  gateway:
+    image: "vuongnv/reactjs-gateway:1.0"
+    container_name: "gateway"
+    hostname: "gateway"
+    network_mode: bridge
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80      
+      - ServiceConfig__serviceAddress=http://172.17.0.1:8099      
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "8099:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro

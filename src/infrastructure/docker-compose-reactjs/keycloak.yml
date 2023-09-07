@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  keycloak:
+      image: quay.io/keycloak/keycloak:15.0.2
+      environment:
+        - KEYCLOAK_USER=vuongnv
+        - KEYCLOAK_PASSWORD=V@nFdk12c!
+        - DB_VENDOR=postgres
+        - DB_USER=postgres
+        - DB_PASSWORD=reactjs
+        - DB_ADDR=postgresql
+        - DB_PORT=5432
+        - DB_DATABASE=keycloak
+        - PROXY_ADDRESS_FORWARDING=true
+
+        # Uncomment the line below if you want to specify JDBC parameters. The parameter below is just an example, and it shouldn't be used in production without knowledge. It is highly recommended that you read the PostgreSQL JDBC driver documentation in order to use it.
+        #JDBC_PARAMS: "ssl=true"
+        # volumes:
+        #     - "./keycloak/themes/:/opt/jboss/keycloak/themes/"
+      ports:
+        - 8080:8080

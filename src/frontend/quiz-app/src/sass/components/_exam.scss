@@ -1,0 +1,16 @@
+.answer_exam_item {
+    padding: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+.exam__question__content {
+    height: 100% !important;
+}
+
+.exam__question__content .quill{
+    width: 100%;
+}

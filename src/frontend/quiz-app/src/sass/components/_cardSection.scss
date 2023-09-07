@@ -1,0 +1,71 @@
+.cardSection {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    word-wrap: break-word;
+    border-radius: 5px;
+    &__thumb {
+        position: relative;
+        padding-top: 30%;
+        img {
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__teacher {
+        z-index: 3;
+        padding: 1rem;
+        text-align: right;
+        &__link {
+            color: $main-color;
+        }
+        &__avatar {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+        }
+        &__name {
+            font-size: 16px;
+            color: $main-color;
+            margin-left: 1rem;
+            font-weight: 500;
+        }
+    }
+    &__body {
+        padding: 2rem 1rem;
+        &-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    }
+    &__footer {
+        padding: 1rem;
+        @include flex(center, space-between);
+        &-item {
+            @include flex(center, center);
+        }
+    }
+    &__tag-icon {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    &:hover {
+        transition: all 0.5s ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+}
+
+.site-card-wrapper .ant-col {
+    margin-bottom: 1.5rem;
+}
+
+.site-card-wrapper .ant-card {
+    min-height: 200px;
+}

@@ -1,0 +1,34 @@
+{
+  "Aggregates": [],
+  "DynamicReRoutes": [
+    {
+      "ServiceName": "file-service",
+      "RateLimitRule": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1000.0,
+        "Limit": 100
+      }
+    }    
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "X-Correlation-ID",
+    "ServiceDiscoveryProvider": {
+      "Host": "68.183.235.195",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "DownstreamScheme": "http",
+    "UpstreamHeaderTransform": {
+      "X-Forwarded-For": "{RemoteIpAddress}"
+    },
+    "httpHandlerOptions": {
+      "allowAutoRedirect": false,
+      "useCookieContainer": false,
+      "useTracing": false,
+      "useProxy": true
+    }
+  },
+  "ReRoutes": []
+}

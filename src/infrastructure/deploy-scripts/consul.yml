@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:      
+  consul:
+    image: "progrium/consul:latest"
+    container_name: "consul"
+    hostname: "consul"
+    ports:
+      - "8400:8400"
+      - "8500:8500"
+      - "8600:53"
+    command: "-server -advertise 68.183.235.195 -bootstrap -ui-dir /ui"  
+    network_mode: bridge

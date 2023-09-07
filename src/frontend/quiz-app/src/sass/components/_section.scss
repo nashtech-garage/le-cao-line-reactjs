@@ -1,0 +1,45 @@
+.content-box {
+    border: 1.5px solid $link-light-grey;
+}
+
+.ql-editor {
+    // min-height: 150px;
+}
+
+.section {
+    margin-bottom: 80px;
+    &__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__left {
+            flex: 2;
+        }
+        &__right {
+            flex: 1;
+        }
+    }
+    & > * ~ * {
+        margin-top: 30px;
+    }
+
+    &__title {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    &__image-law{
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    &__text{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        &__desc{
+            font-size: 1.3rem;
+        }
+    }
+}

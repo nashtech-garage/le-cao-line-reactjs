@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  redis:
+    image: docker.io/bitnami/redis:latest
+    environment:
+      # ALLOW_EMPTY_PASSWORD is recommended only for development.
+      - REDIS_PASSWORD=MfnMHr52$fjmUDf&^4fMdO
+    ports:
+      - '6379:6379'    
+    restart: always

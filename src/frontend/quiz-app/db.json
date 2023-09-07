@@ -1,0 +1,275 @@
+{
+  "driving-law": [
+    {
+      "Id": 1,
+      "Title": "Học luật bằng lái A1",
+      "Content": "Hạng A1 cấp cho người lái xe mô tô hai bánh có dung tích xy lanh từ 50 cm3 đến 125 cm3 hoặc có công suất động cơ điện trên 04 kw đến 11 kw và các loại xe quy định cho giấy phép lái xe hạng A0.",
+      "Image": "https://hlxonline.com/images/MaskGroup1.webp"
+    },
+    {
+      "Id": 2,
+      "Title": "Học luật bằng lái A2",
+      "Content": "Hạng A2 cấp cho người lái xe để điều khiển xe môtô hai bánh có dung tích xy lanh từ 175 cm3 trở lên và các loại xe quy định cho giấy phép lái xe hạng A1.",
+      "Image": "https://hlxonline.com/images/MaskGroup1.webp"
+    },
+    {
+      "Id": 3,
+      "Title": "Học luật bằng lái A3",
+      "Content": "Hạng A3 cấp cho người lái xe để điều khiển xe môtô ba bánh, bao gồm cả xe lam ba bánh, xích lô máy và các loại xe quy định cho giấy phép lái xe hạng A1.",
+      "Image": "https://hlxonline.com/images/MaskGroup1.webp"
+    },
+    {
+      "Id": 4,
+      "Title": "Học luật bằng lái A4",
+      "Content": "Bằng lái xe A4 là giấy phép lái xe được cung cấp cho người điều khiển máy kéo có trọng tải lên đến 1000kg - 1 tấn, thường thì những xe kéo này là xe kéo 4 bánh vì thế khi có bằng lái xe A4 bạn vẫn không được sử dụng các phương tiện quy định của bằng A1, A2, A3.",
+      "Image": "https://hlxonline.com/images/MaskGroup1.webp"
+    },
+    {
+      "Id": 5,
+      "Title": "Học luật bằng lái B1",
+      "Content": "Cấp cho những người không hành nghề lái xe, được điều khiển các loại xe sau đây: Ô tô chở người đến 9 chỗ ngồi; Ô tô tải, kể cả ô tô tải chuyên dùng, có trọng tải thiết kế dưới 3.500 kg.",
+      "Image": "https://hlxonline.com/images/MaskGroup3.webp"
+    },
+    {
+      "Id": 6,
+      "Title": "Học luật bằng lái B2",
+      "Content": "Ôtô chuyên dùng có trọng tải thiết kế dưới 3.500kg. - Ôtô chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe. - Ôtô tải, kể cả ô tô tải chuyên dùng có trọng tải thiết kế dưới 3.500kg. - Máy kéo một rơ-moóc có trọng tải thiết kế dưới 3.500kg.",
+      "Image": "https://hlxonline.com/images/MaskGroup4.webp"
+    },
+    {
+      "Id": 7,
+      "Title": "Học luật bằng lái C",
+      "Content": "Bằng C được coi là bằng lái xe hạng nặng cơ bản. Ngoài các loại xe ô tô số sàn, xe số tự động 4, 7, 9 chỗ có thể điều khiển được quy định cho bằng B1 và B2 thì bằng C được phép lái cả xe ô tô tải dưới 3,5 tấn.",
+      "Image": "https://hlxonline.com/images/MaskGroup5.webp"
+    },
+    {
+      "Id": 8,
+      "Title": "Học luật bằng lái D",
+      "Content": "Hạng D cấp cho người lái xe để điều khiển các loại xe sau đây: a) Ô tô chở người từ 10 đến 30 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; b) Các loại xe quy định cho giấy phép lái xe hạng B1, B2 và C.",
+      "Image": "https://hlxonline.com/images/MaskGroup6.webp"
+    },
+    {
+      "Id": 9,
+      "Title": "Học luật bằng lái E",
+      "Content": "Bằng lái hạng E là loại bằng lái xe cấp cho người hành nghề lái xe điều khiển các loại xe ô tô chở người trên 30 chỗ ngồi, máy kéo kéo một rơ roóc, các loại xe quy định cho bằng lái xe hạng B1, B2, C, D. Người sở hữu bằng lái xe hạng E được phép kinh doanh vận tải.",
+      "Image": "https://hlxonline.com/images/MaskGroup6.webp"
+    },
+    {
+      "Id": 10,
+      "Title": "Học luật bằng lái F",
+      "Content": "Đã có giấy phép lái xe các hạng B2, C, D và E để điều khiển các loại xe ô tô tương ứng kéo rơ moóc có trọng tải thiết kế lớn hơn 750 kg, sơ mi rơ moóc, ô tô khách nối toa.",
+      "Image": "https://hlxonline.com/images/MaskGroup6.webp"
+    }
+  ],
+  "category-law": [
+    {
+      "Id": 1,
+      "category-name": "Khái niệm và quy tắc giao thông đường bộ",
+      "Image": "https://hlxonline.com/images/MaskGroup6.webp"
+    }
+  ],
+  "Questions": [
+    {
+      "id": "aced440c-caad-432e-a10c-01d38e3e55fb",
+      "level": "Hard",
+      "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+      "questionType": "Signal Choise",
+      "questionContent": "<p>Phần của đường bộ đươc sử dụng cho các phương tiện giao thông qua lại là gì?</p>",
+      "correctAnswer": "ABCD",
+      "wrongAnswer": "EFGH",
+      "image": "https://hlxonline.com/images/bang-a1.jpeg",
+      "tagQuestions": [
+        "thi ban lai A1",
+        "cau liet",
+        "bien bao"
+      ],
+      "answers": [
+        {
+          "id": "a53d1e56-3d95-4890-b395-4dcbb2a69a49",
+          "answerContent": "Phần mặt đường và lề đường",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        },
+        {
+          "id": "c9a1bee1-b755-4ece-ab2d-a77d26cfa939",
+          "answerContent": "Phần đường xe chạy",
+          "allowShuffle": true,
+          "isCorrectAnswer": true
+        },
+        {
+          "id": "7aa7cfed-18b7-4200-ab65-dfea41bd2d65",
+          "answerContent": "Phần đường xe cơ giới",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": "8de1e7c6-2acc-45bd-b3f2-58451aaed085",
+      "level": "Hard",
+      "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+      "questionType": "Signal Choise",
+      "questionContent": "<p><strong>Làn đường</strong> là gì?</p>",
+      "correctAnswer": "ABCD",
+      "wrongAnswer": "EFGH",
+      "image": "https://hlxonline.com/images/bang-a1.jpeg",
+      "tagQuestions": [
+        "thi ban lai A1",
+        "lan duong",
+        "bien bao xe"
+      ],
+      "answers": [
+        {
+          "id": "e166579b-0f73-479e-9e60-d4672c1e7b45",
+          "answerContent": "Là một phần của phần đường xe chạy được chai theo chiều dọc của đường, sử dụng cho xe chạy.",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        },
+        {
+          "id": "c85d6f0c-f03a-4b7d-aad9-ffa5c69185f9",
+          "answerContent": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn",
+          "allowShuffle": true,
+          "isCorrectAnswer": true
+        },
+        {
+          "id": "1dc998fa-8e14-4500-a112-bc78fa0d6a51",
+          "answerContent": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ bề rộng cho xe ô tô chạy an toàn",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": "43a95019-97d0-4e77-86f3-b077b2a7b15c",
+      "level": "Hard",
+      "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+      "questionType": "Signal Choise",
+      "questionContent": "<p>Khái niệm <strong>khổ giới hạn đường bộ</strong> được hiểu như thế nào là đúng?</p>",
+      "correctAnswer": "ABCD",
+      "wrongAnswer": "EFGH",
+      "image": "https://hlxonline.com/images/bang-a1.jpeg",
+      "tagQuestions": [
+        "thi ban lai A1",
+        "xe may",
+        "bien bao"
+      ],
+      "answers": [
+        {
+          "id": "168d2389-ffbc-4345-87b1-c024ce379b33",
+          "answerContent": "Là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        },
+        {
+          "id": "5b1ba573-9d4e-4ff6-a485-cf225b721917",
+          "answerContent": "Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe được đi qua an toàn",
+          "allowShuffle": true,
+          "isCorrectAnswer": true
+        },
+        {
+          "id": "eaf1a781-f237-464b-b7a5-371212da912e",
+          "answerContent": "Là khoảng trống có kích thước giới hạn về chiều cao của đường, cầu, bến phà, hầm trên đường bộ để các xe được đi qua an toàn",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "id": "cca577aa-e752-4a95-a780-7177c04d0573",
+      "level": "Hard",
+      "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+      "questionType": "Signal Choise",
+      "questionContent": "<p>Trong các khái niệm dưới đây, <strong>dải phân cách</strong> được hiểu như thế nào là đúng?</p>",
+      "correctAnswer": "ABCD",
+      "wrongAnswer": "EFGH",
+      "image": "https://hlxonline.com/images/bang-a1.jpeg",
+      "tagQuestions": [
+        "thi ban lai A1",
+        "cau liet",
+        "qua duong"
+      ],
+      "answers": [
+        {
+          "id": "e4349f80-d124-4338-b5a1-411ba7e6295c",
+          "questionContent": "Là bộ phận của đường để ngăn cách không cho các loại xe vào những nơi không được phép",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        },
+        {
+          "id": "893bae7f-28d2-4c19-859f-221000a0bcb8",
+          "questionContent": "Là bộ phận đươcng để phân tách phần đường xe chạy và hành lang an toàn giao thông.",
+          "allowShuffle": true,
+          "isCorrectAnswer": true
+        },
+        {
+          "id": "042d7c8c-3ded-4f40-a0e5-111e68e5a4aa",
+          "questionContent": "Là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+          "allowShuffle": true,
+          "isCorrectAnswer": false
+        }
+      ]
+    },
+    {
+      "questionContent": "<p>Top 1 A1</p>",
+      "level": "low",
+      "questionType": "Signal choice",
+      "correctAnswer": "Good",
+      "wrongAnswer": "Wrong",
+      "answers": [
+        {
+          "AnswerContent": "<p>gogo</p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        },
+        {
+          "AnswerContent": "<p>bye bye</p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        },
+        {
+          "AnswerContent": "<p>see you</p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        }
+      ],
+      "tagQuestions": [
+        "Maths",
+        "Geometry",
+        "History"
+      ],
+      "id": "5463512221c6e6d3",
+      "userId": "ad032a0b52ac04d4"
+    },
+    {
+      "questionContent": "<h1>Con <strong>Meof haha</strong></h1>",
+      "level": "low",
+      "questionType": "Signal choice",
+      "correctAnswer": "Good",
+      "wrongAnswer": "Wrong",
+      "answers": [
+        {
+          "AnswerContent": "<p>Maf treo cay cao</p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        },
+        {
+          "AnswerContent": "<p>qua troi </p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        },
+        {
+          "AnswerContent": "<p>quaooo</p>",
+          "AnswerValue": true,
+          "AllowShuffle": true
+        }
+      ],
+      "tagQuestions": [
+        "Maths",
+        "Geometry",
+        "History"
+      ],
+      "id": "480615bd9daac91f",
+      "userId": "b1eff3a8cb7fb09e"
+    }
+  ]
+}

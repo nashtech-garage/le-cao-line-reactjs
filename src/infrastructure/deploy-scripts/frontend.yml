@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+  frontend:
+    image: "vuongnv/reactjs-frontend:1.0"
+    container_name: "frontend"
+    hostname: "frontend"
+    network_mode: bridge
+    restart: always
+    environment:                
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "8083:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro

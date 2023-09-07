@@ -1,0 +1,26 @@
+docker build . -f D:\project\reactjs-team\src\ApiGateway\Dockerfile -t vuongnv/reactjs-gateway:1.0
+docker push vuongnv/reactjs-gateway:1.0
+
+docker build . -f D:\project\reactjs-team\src\FileSerivces\Dockerfile -t vuongnv/reactjs-file-service:1.0
+docker push vuongnv/reactjs-file-service:1.0
+
+docker build . -f D:\project\reactjs-team\src\CatalogService-main\src\Catalog.API\Dockerfile -t vuongnv/reactjs-catalog:1.0
+docker push vuongnv/reactjs-catalog:1.0
+
+docker build . -t vuongnv/reactjs-frontend:1.0
+docker push vuongnv/reactjs-frontend:1.0
+
+docker build . -f D:\project\reactjs-team\src\AccountService\src\Account.API\Dockerfile -t vuongnv/reactjs-account:1.0
+docker push vuongnv/reactjs-account:1.0
+
+docker build . -f D:\project\reactjs-team\src\NotificationService\src\Notification.API\Dockerfile -t vuongnv/reactjs-notification:1.0
+docker push vuongnv/reactjs-notification:1.0
+
+
+
+
+
+============================
+auth: client reactjs-app
+administrator
+admin@123

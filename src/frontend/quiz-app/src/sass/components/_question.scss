@@ -1,0 +1,33 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+    .content {
+        cursor: pointer;
+        display: flex;
+        .modal-content {
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+        }
+        .modal-image {
+            margin: auto;
+        }
+        border-bottom: 1px solid #000000;
+        padding-bottom: 16px;
+        padding-top: 10px;
+    }
+}
+.ant-modal-body {
+    padding-top: 0;
+}
+.answer-content {
+    &-right {
+        
+    }
+    &-left {
+        flex: 4 !important;
+    }
+}
+.ant-space.ant-space-horizontal.ant-space-align-baseline > .ant-space-item:first-child {
+    flex: 4;
+}

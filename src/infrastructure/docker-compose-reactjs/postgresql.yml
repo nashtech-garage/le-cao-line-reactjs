@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  postgresql:
+    image: docker.io/bitnami/postgresql:14
+    restart: always
+    ports:
+      - '5432:5432'
+    volumes:
+      - 'postgresql_data:/bitnami/postgresql'
+    environment:
+      # - 'ALLOW_EMPTY_PASSWORD=yes'
+      - POSTGRESQL_USERNAME=postgres
+      - POSTGRESQL_PASSWORD=reactjs
+      - POSTGRESQL_DATABASE=keycloak
+
+volumes:
+  postgresql_data:
+    driver: local

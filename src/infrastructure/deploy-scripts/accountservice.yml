@@ -1,0 +1,20 @@
+version: "3.4"
+
+services:
+  accountservice:
+    image: "vuongnv/reactjs-account:1.0"
+    container_name: "accountservice"
+    hostname: "accountservice"
+    network_mode: bridge
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80      
+      - ConnectionStrings__Default=Server=68.183.235.195;Port=5432;Database=catalog;User Id=postgres;Password=reactjs;
+      - ServiceConfig__serviceAddress=http://172.17.0.1:8084      
+      - TZ=Asia/Ho_Chi_Minh
+    ports:
+      - "8084:80"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro

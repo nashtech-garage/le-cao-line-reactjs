@@ -1,0 +1,7 @@
+﻿namespace Catalog.API.Infrastructure.ResponseGeneric
+{
+    public class ResponseDefault
+    {
+        public string? Data { get; set; }
+    }
+}

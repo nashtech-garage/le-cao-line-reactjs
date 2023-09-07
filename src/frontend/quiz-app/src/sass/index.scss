@@ -1,0 +1,26 @@
+@import "~antd/dist/antd.css";
+@import "~react-quill/dist/quill.snow.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap");
+@import "./variables";
+@import "./mixins";
+@import "./base";
+@import "./text";
+
+@import "./components/button";
+@import "./components/content";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/listExam";
+@import "./components/section";
+@import "./components/cardSection";
+@import "./components/login";
+
+@import "./components/loading";
+
+@import "./components/question";
+@import "./components/addQuestion";
+
+@import "./components/heading";
+@import "./components/contact";
+@import "./components/exam";
+@import "./components/quill";

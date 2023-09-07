@@ -1,0 +1,255 @@
+[
+    {
+        "driving-law": [
+            {
+                "Id": 1,
+                "Title": "Learn driving A1",
+                "Content": "Hạng A1 cấp cho người lái xe mô tô hai bánh có dung tích xy lanh từ 50 cm3 đến 125 cm3 hoặc có công suất động cơ điện trên 04 kw đến 11 kw và các loại xe quy định cho giấy phép lái xe hạng A0.",
+                "Thumb": "https://hlxonline.com/images/bang-a1.jpeg",
+                "Image": "https://static.chotot.com/storage/chotot-kinhnghiem/xe/2021/01/d7d7b90c-xe-wave-bi-hut-hoi-1.png",
+                "ExamId" : "f46d018a-63c3-4e83-a7e9-b381dcae9cd1"
+            },
+            {
+                "Id": 2,
+                "Title": "Learn driving A2",
+                "Content": "Hạng A2 cấp cho người lái xe để điều khiển xe môtô hai bánh có dung tích xy lanh từ 175 cm3 trở lên và các loại xe quy định cho giấy phép lái xe hạng A1.",
+                "Thumb": "https://hlxonline.com/images/bang-a2.jpeg",
+                "Image": "https://cdn-img.thethao247.vn/upload/thoatrinh/2018/06/27/kinh-nghiem-lai-xe-con-tay-vi-tri-ngoi-lai-xe-quan-trong-nhu-the-nao-5.jpg",
+                "ExamId" : "86f6bf50-a466-4ae8-a1f4-7bfbaf8b0e96"
+            },
+            {
+                "Id": 3,
+                "Title": "Learn driving A3",
+                "Content": "Hạng A3 cấp cho người lái xe để điều khiển xe môtô ba bánh, bao gồm cả xe lam ba bánh, xích lô máy và các loại xe quy định cho giấy phép lái xe hạng A1.",
+                "Thumb": "https://hoclaixemoto.com/wp-content/uploads/2019/10/thi-bang-lai-xe-a3.jpg",
+                "Image": "https://hoclaixeb2hanoi.com/wp-content/uploads/2022/03/bang-lai-xe-a3.png",
+                "ExamId" : "ec00060f-ef87-47d8-8ddc-873d2aa81add"
+            },
+            {
+                "Id": 4,
+                "Title": "Learn driving A4",
+                "Content": "Bằng lái xe A4 là giấy phép lái xe được cung cấp cho người điều khiển máy kéo có trọng tải lên đến 1000kg - 1 tấn, thường thì những xe kéo này là xe kéo 4 bánh vì thế khi có bằng lái xe A4 bạn vẫn không được sử dụng các phương tiện quy định của bằng A1, A2, A3.",
+                "Thumb": "https://hlxonline.com/images/bang-a4.jpeg",
+                "Image": "http://banglaixehp.com/wp-content/uploads/2022/05/bang-lai-xe-hang-A4.jpg",
+                "ExamId" : "5bf3cd2b-40f2-41f0-804f-1febe6d25863"
+            },
+            {
+                "Id": 5,
+                "Title": "Learn driving B1",
+                "Content": "Cấp cho những người không hành nghề lái xe, được điều khiển các loại xe sau đây: Ô tô chở người đến 9 chỗ ngồi; Ô tô tải, kể cả ô tô tải chuyên dùng, có trọng tải thiết kế dưới 3.500 kg.",
+                "Thumb": "https://hlxonline.com/images/bang-b1.jpeg",
+                "Image": "https://cdnimg.vietnamplus.vn/uploaded/qrndqxjwp/2022_01_15/5c13378d057c480a8e98c64a413e20613682161636517973.jpg",
+                "ExamId" : "2bacd63b-a302-42e9-acf8-8eb165a5e135"
+            },
+            {
+                "Id": 6,
+                "Title": "Learn driving B2",
+                "Content": "Ôtô chuyên dùng có trọng tải thiết kế dưới 3.500kg. - Ôtô chở người đến 9 chỗ ngồi, kể cả chỗ ngồi cho người lái xe. - Ôtô tải, kể cả ô tô tải chuyên dùng có trọng tải thiết kế dưới 3.500kg. - Máy kéo một rơ-moóc có trọng tải thiết kế dưới 3.500kg.",
+                "Thumb": "https://hlxonline.com/images/bang-b2.jpeg",
+                "Image": "https://cafefcdn.com/thumb_w/650/203337114487263232/2022/5/1/photo1651411555514-16514115556412127514799.jpg",
+                "ExamId" : "46a4af13-d57a-4dab-9cfa-2247be54be4a"
+            },
+            {
+                "Id": 7,
+                "Title": "Learn driving C",
+                "Content": "Bằng C được coi là bằng lái xe hạng nặng cơ bản. Ngoài các loại xe ô tô số sàn, xe số tự động 4, 7, 9 chỗ có thể điều khiển được quy định cho bằng B1 và B2 thì bằng C được phép lái cả xe ô tô tải dưới 3,5 tấn.",
+                "Thumb": "https://travelhow.com.vn/images/2020/07/thue-xe-thaco-town-29-32-cho-ngoi-2017-2019-1.jpg",
+                "Image": "https://travelhow.com.vn/images/2020/07/thue-xe-thaco-town-29-32-cho-ngoi-2017-2019-1.jpg",
+                "ExamId" : "4311838a-c6b2-467c-836d-0237bb196cbe"
+            },
+            {
+                "Id": 8,
+                "Title": "Learn driving D",
+                "Content": "Hạng D cấp cho người lái xe để điều khiển các loại xe sau đây: a) Ô tô chở người từ 10 đến 30 chỗ ngồi, kể cả chỗ ngồi cho người lái xe; b) Các loại xe quy định cho giấy phép lái xe hạng B1, B2 và C.",
+                "Thumb": "https://ghetham.com/wp-content/uploads/2021/08/kich-thuoc-xe-16-cho-2.jpg",
+                "Image": "https://cdn.luatvietnam.vn/uploaded/Images/Original/2020/04/17/xe-khach-lien-tinh_1704080254.jpg",
+                "ExamId" : "3a6e1576-43af-4dde-b894-27f28d460084"
+            },
+            {
+                "Id": 9,
+                "Title": "Learn driving E",
+                "Content": "Bằng lái hạng E là loại bằng lái xe cấp cho người hành nghề lái xe điều khiển các loại xe ô tô chở người trên 30 chỗ ngồi, máy kéo kéo một rơ roóc, các loại xe quy định cho bằng lái xe hạng B1, B2, C, D. Người sở hữu bằng lái xe hạng E được phép kinh doanh vận tải.",
+                "Thumb": "https://meganhatrang.com/wp-content/uploads/2020/09/xe-kh%C3%A1ch-S%C3%A0i-G%C3%B2n-%C4%91i-Cam-Ranh-megabus-1-scaled.jpg",
+                "Image": "https://vulinhauto.com/wp-content/uploads/2018/11/image013.jpg",
+                "ExamId" : "45959950-fcab-4793-b1ce-422d102aa50b"
+            },
+            {
+                "Id": 10,
+                "Title": "Learn driving F",
+                "Content": "Đã có giấy phép lái xe các hạng B2, C, D và E để điều khiển các loại xe ô tô tương ứng kéo rơ moóc có trọng tải thiết kế lớn hơn 750 kg, sơ mi rơ moóc, ô tô khách nối toa.",
+                "Thumb": "https://maitranspro.com/wp-content/uploads/2020/06/Xe-%C4%91%E1%BA%A7u-k%C3%A9o-l%C3%A0-g%C3%AC-v%C3%A0-%C3%ADch-th%C6%B0%E1%BB%9Bc-xe-container.jpg",
+                "Image": "https://chuyenbanglai.com/upload/images/L%C3%A1i%20xe%20container%20c%E1%BA%A7n%20b%E1%BA%B1ng%20g%C3%AC-3.jpg",
+                "ExamId" : "3cc9c957-c7a1-455e-ad88-43e8f6157695"
+            }
+        ]
+    },
+    {
+        "category-law": [
+            {
+                "Id": 1,
+                "category-name": "Khái niệm và quy tắc giao thông đường bộ",
+                "Image": "https://hlxonline.com/images/MaskGroup6.webp"
+            }
+        ]
+    },
+    {
+        "questions": [
+            {
+                "id": "9f1f646d-0129-475c-b007-7a8d6caac6eg",
+                "level": "Hard",
+                "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+                "questionType": "Signal Choise",
+                "questionContent": "<p>Phần của đường bộ đươc sử dụng cho các phương tiện giao thông qua lại là gì?</p>",
+                "correctAnswer": "ABCD",
+                "wrongAnswer": "EFGH",
+                "image": "https://hlxonline.com/images/bang-a1.jpeg",
+                "nameUrl": "cau-1-phan-cua-duong-bo-duoc-su-dung-cho-cac-phuong-tien-giao-thong-qua-lai-la-gi",
+                "tagQuestions": [
+                    "thi ban lai A1",
+                    "cau liet",
+                    "bien bao"
+                ],
+                "answers": [
+                    {
+                        "id": 1,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6eb",
+                        "answerContent": "Phần mặt đường và lề đường",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    },
+                    {
+                        "id": 2,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ec",
+                        "answerContent": "Phần đường xe chạy",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": true
+                    },
+                    {
+                        "id": 3,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ed",
+                        "answerContent": "Phần đường xe cơ giới",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": "9f1f646d-0129-475c-b007-7a8d6caaceds",
+                "level": "Hard",
+                "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+                "questionType": "Signal Choise",
+                "questionContent": "<p><strong>Làn đường</strong> là gì?</p>",
+                "correctAnswer": "ABCD",
+                "wrongAnswer": "EFGH",
+                "image": "https://hlxonline.com/images/bang-a1.jpeg",
+                "nameUrl": "cau-2-lan-duong-la-gi",
+                "tagQuestions": [
+                    "thi ban lai A1",
+                    "lan duong",
+                    "bien bao xe"
+                ],
+                "answers": [
+                    {
+                        "id": 1,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6eb",
+                        "answerContent": "Là một phần của phần đường xe chạy được chai theo chiều dọc của đường, sử dụng cho xe chạy.",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    },
+                    {
+                        "id": 2,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ec",
+                        "answerContent": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có bề rộng đủ cho xe chạy an toàn",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": true
+                    },
+                    {
+                        "id": 3,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ed",
+                        "answerContent": "Là một phần của phần đường xe chạy được chia theo chiều dọc của đường, có đủ bề rộng cho xe ô tô chạy an toàn",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": "9f1f646d-0129-475c-b007-7a8d6caacfgh",
+                "level": "Hard",
+                "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+                "questionType": "Signal Choise",
+                "questionContent": "<p>Khái niệm <strong>khổ giới hạn đường bộ</strong> được hiểu như thế nào là đúng?</p>",
+                "correctAnswer": "ABCD",
+                "wrongAnswer": "EFGH",
+                "image": "https://hlxonline.com/images/bang-a1.jpeg",
+                "nameUrl": "cau-3-khai-niem-kho-gioi-han-duong-bo-duoc-hieu-nhu-the-nao-la-dung",
+                "tagQuestions": [
+                    "thi ban lai A1",
+                    "xe may",
+                    "bien bao"
+                ],
+                "answers": [
+                    {
+                        "id": 1,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6eb",
+                        "answerContent": "Là khoảng trống có kích thước giới hạn về chiều cao, chiều rộng của đường, cầu, bến phà, hầm đường bộ để các xe kể cả hàng hóa xếp trên xe đi qua được an toàn.",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    },
+                    {
+                        "id": 2,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ec",
+                        "answerContent": "Là khoảng trống có kích thước giới hạn về chiều rộng của đường, cầu, bến phà, hầm trên đường bộ để các xe kể cả hàng hóa xếp trên xe được đi qua an toàn",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": true
+                    },
+                    {
+                        "id": 3,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ed",
+                        "answerContent": "Là khoảng trống có kích thước giới hạn về chiều cao của đường, cầu, bến phà, hầm trên đường bộ để các xe được đi qua an toàn",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    }
+                ]
+            },
+            {
+                "id": "9f1f646d-0129-475c-b007-7a8d6caactyu",
+                "level": "Hard",
+                "userId": "9f1f646d-0129-475c-b007-7a8d6caac6ss",
+                "questionType": "Signal Choise",
+                "questionContent": "<p>Trong các khái niệm dưới đây, <strong>dải phân cách</strong> được hiểu như thế nào là đúng?</p>",
+                "correctAnswer": "ABCD",
+                "wrongAnswer": "EFGH",
+                "image": "https://hlxonline.com/images/bang-a1.jpeg",
+                "nameUrl": "cau-1-phan-cua-duong-bo-duoc-su-dung-cho-cac-phuong-tien-giao-thong-qua-lai-la-gi",
+                "tagQuestions": [
+                    "thi ban lai A1",
+                    "cau liet",
+                    "qua duong"
+                ],
+                "answers": [
+                    {
+                        "id": 1,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6eb",
+                        "questionContent": "Là bộ phận của đường để ngăn cách không cho các loại xe vào những nơi không được phép",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    },
+                    {
+                        "id": 2,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ec",
+                        "questionContent": "Là bộ phận đươcng để phân tách phần đường xe chạy và hành lang an toàn giao thông.",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": true
+                    },
+                    {
+                        "id": 3,
+                        "questionId": "9f1f646d-0129-475c-b007-7a8d6caac6ed",
+                        "questionContent": "Là bộ phận của đường để phân chia mặt đường thành hai chiều xe chạy riêng biệt hoặc để phân chia phần đường của xe cơ giới và xe thô sơ.",
+                        "allowShuffle": true,
+                        "isCorrectAnswer": false
+                    }
+                ]
+            }
+        ]
+    }
+]

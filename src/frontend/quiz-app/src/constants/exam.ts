@@ -1,0 +1,189 @@
+const ROLES: Record<string, string> = {
+  ADMIN: 'ADMIN',
+  USER: 'USER',
+};
+
+const ACCEPT_EXCEL_FILE =
+  '.csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel';
+
+const QUESTION_TYPE = {
+  MULTIPLE_CHOICE_QUESTION: 'multiple_choice_question',
+  FILL_IN_BLANK: 'fill_in_blank',
+  MATCH_THE_FOLLOWING: 'match_the_following',
+  ORDERING_SEQUENCE: 'ordering_sequence',
+};
+
+const QUESTION_TYPE_STRING = {
+  MULTIPLE_CHOICE_QUESTION: 'Multiple Choice Question',
+  FILL_IN_BLANK: 'Fill In Blank Question',
+  MATCH_THE_FOLLOWING: 'Match The Following Question',
+  ORDERING_SEQUENCE: 'Ordering Sequence Question',
+};
+
+const MAP_QUESTION_TYPE = {
+  [QUESTION_TYPE.MULTIPLE_CHOICE_QUESTION]: 'Multiple Choice Question (MCQ)',
+  [QUESTION_TYPE.FILL_IN_BLANK]: 'Fill In Blank Question (FIB)',
+  [QUESTION_TYPE.MATCH_THE_FOLLOWING]: 'Match The Following Question (MTF)',
+  [QUESTION_TYPE.ORDERING_SEQUENCE]: 'Ordering Sequence Question (ORD)',
+};
+
+const MAP_QUESTION_TYPE_ID = {
+  [QUESTION_TYPE.MULTIPLE_CHOICE_QUESTION]: '6f01c413-497a-4745-93d4-4e41d254fdad',
+};
+
+const MAP_QUESTION_TYPE_SHORT = {
+  [QUESTION_TYPE.MULTIPLE_CHOICE_QUESTION]: 'MCQ',
+  [QUESTION_TYPE.FILL_IN_BLANK]: 'FIB',
+  [QUESTION_TYPE.MATCH_THE_FOLLOWING]: 'MTF',
+  [QUESTION_TYPE.ORDERING_SEQUENCE]: 'ORD',
+};
+
+const LANGUAGES = {
+  VIET: 'vi',
+  ENG: 'en',
+};
+
+const MAP_LANGUAGES = {
+  [LANGUAGES.VIET]: 'Viet',
+  [LANGUAGES.ENG]: 'English',
+};
+
+const STATUS = {
+  ACTIVE: 'active',
+  DRAFT: 'draft',
+};
+
+const MAP_STATUS = {
+  [STATUS.ACTIVE]: 'Active',
+  [STATUS.DRAFT]: 'Draft',
+};
+
+const MODE = {
+  PUBLIC: 'public',
+  PRIVATE: 'private',
+};
+
+const MAP_MODE = {
+  [MODE.PUBLIC]: 'Public',
+  [MODE.PRIVATE]: 'Private',
+};
+
+const HEURISTIC_LEVEL = {
+  KNOWLEDGE: 'knowledge',
+  COMPREHENSION: 'comprehension',
+  APPLICATION: 'application',
+  ANALYSIS: 'analysis',
+  SYNTHESIS: 'synthesis',
+  EVALUATION: 'evaluation',
+};
+
+const HEURISTIC_LEVEL_STRING = {
+  KNOWLEDGE: 'Knowledge',
+  COMPREHENSION: 'Comprehension',
+  APPLICATION: 'Application',
+  ANALYSIS: 'Analysis',
+  SYNTHESIS: 'Synthesis',
+  EVALUATION: 'Evaluation',
+};
+
+const MAP_HEURISTIC_LEVEL = {
+  [HEURISTIC_LEVEL.KNOWLEDGE]: HEURISTIC_LEVEL_STRING.KNOWLEDGE,
+  [HEURISTIC_LEVEL.COMPREHENSION]: HEURISTIC_LEVEL_STRING.COMPREHENSION,
+  [HEURISTIC_LEVEL.APPLICATION]: HEURISTIC_LEVEL_STRING.APPLICATION,
+  [HEURISTIC_LEVEL.ANALYSIS]: HEURISTIC_LEVEL_STRING.ANALYSIS,
+  [HEURISTIC_LEVEL.SYNTHESIS]: HEURISTIC_LEVEL_STRING.SYNTHESIS,
+  [HEURISTIC_LEVEL.EVALUATION]: HEURISTIC_LEVEL_STRING.EVALUATION,
+};
+
+const MAP_HEURISTIC_LEVEL_ID = {
+  [HEURISTIC_LEVEL.KNOWLEDGE]: "7b70ddba-b8b0-42f8-961e-20785f0f564b",
+  [HEURISTIC_LEVEL.COMPREHENSION]:"abdbeff3-9840-4200-a8c6-e1f1e3d0c428",
+  [HEURISTIC_LEVEL.APPLICATION]: "c363cdf9-cadb-4090-a03d-43c4f5303e9b",
+  [HEURISTIC_LEVEL.ANALYSIS]: "0293d928-8ec7-4bf7-82cf-894235220294",
+  [HEURISTIC_LEVEL.SYNTHESIS]: "d3dd9e4d-0170-45ce-9ee2-78b9f8770e38",
+  [HEURISTIC_LEVEL.EVALUATION]: "999abd49-0b6d-4fd0-81f4-0a419b71bac8",
+};
+
+const MAP_HEURISTIC_LEVEL_FROM_ID = {
+  [MAP_HEURISTIC_LEVEL_ID[HEURISTIC_LEVEL.KNOWLEDGE]]: HEURISTIC_LEVEL.KNOWLEDGE,
+};
+
+const TOPIC = {
+  MATH: 'math',
+  MUSIC: 'music',
+  OTHER: 'other',
+};
+
+const MAP_TOPIC = {
+  [TOPIC.MATH]: 'Math',
+  [TOPIC.MUSIC]: 'Music',
+  [TOPIC.OTHER]: 'Other',
+};
+
+const EXAM_TYPE = {
+  EXAM: 'exam',
+  QUIZZ: 'quizz',
+};
+
+const MAP_EXAM_TYPE = {
+  [EXAM_TYPE.EXAM]: 'Exam',
+  [EXAM_TYPE.QUIZZ]: 'Quizz',
+};
+
+const QUESTION_BANK_TYPE = {
+  SYSTEM: 'system',
+  PERSONAL: 'personal',
+};
+
+const MAP_QUESTION_BANK_TYPE = {
+  [QUESTION_BANK_TYPE.SYSTEM]: 'System',
+  [QUESTION_BANK_TYPE.PERSONAL]: 'Personal',
+};
+
+const SCHEDULE_STATUS = {
+  NOT_STARTED: 'not_started',
+  IN_PROGRESS: 'in_progress',
+  COMPLETED: 'completed',
+};
+
+const MAP_SCHEDULE_STATUS = {
+  [SCHEDULE_STATUS.NOT_STARTED]: 'Not started',
+  [SCHEDULE_STATUS.IN_PROGRESS]: 'In progress',
+  [SCHEDULE_STATUS.COMPLETED]: 'Completed',
+};
+
+const NUMBER_OF_QUESTION_PER_PAGE = 10;
+const NUMBER_OF_EXAM_PER_PAGE = 10;
+
+export {
+  ROLES,
+  QUESTION_TYPE,
+  QUESTION_TYPE_STRING,
+  MAP_QUESTION_TYPE,
+  TOPIC,
+  MAP_TOPIC,
+  HEURISTIC_LEVEL,
+  HEURISTIC_LEVEL_STRING,
+  MAP_HEURISTIC_LEVEL,
+  LANGUAGES,
+  MAP_LANGUAGES,
+  STATUS,
+  MAP_STATUS,
+  MODE,
+  MAP_MODE,
+  ACCEPT_EXCEL_FILE,
+  NUMBER_OF_QUESTION_PER_PAGE,
+  NUMBER_OF_EXAM_PER_PAGE,
+  MAP_QUESTION_TYPE_SHORT,
+  EXAM_TYPE,
+  MAP_EXAM_TYPE,
+  QUESTION_BANK_TYPE,
+  MAP_QUESTION_BANK_TYPE,
+  SCHEDULE_STATUS,
+  MAP_SCHEDULE_STATUS,
+  MAP_QUESTION_TYPE_ID,
+  MAP_HEURISTIC_LEVEL_ID,
+  MAP_HEURISTIC_LEVEL_FROM_ID
+};
+
+

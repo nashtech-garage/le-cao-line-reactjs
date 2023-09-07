@@ -1,0 +1,17 @@
+.list-exam {
+    // background-color: $main-color;
+    &__top {
+        margin-bottom: 2rem;
+        @include flex(center, space-between);
+    }
+    &__heading {
+        font-size: 18px;
+    }
+    &__primary {
+        font-size: 30px;
+    }
+}
+
+.list-exam__btn {
+    text-align: right;
+}

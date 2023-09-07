@@ -1,1 +1,18 @@
-# le-cao-line-reactjs
+## System Architecture
+- The system will have a client site powered by React, which will connect to the API gateway in order to communicate with the backend services that are built under microservices architecture. The system architecture is described by the following diagram:
+![SystemArchitecture](http://www.plantuml.com/plantuml/img/lLXHSzCu47xthzWfhwKDFIYb4pBa2kM0QSdKkU6XvK6sbKGNMpAId51kxh_VhkqujciN9v0aCvb4ahNVhdQ__PGtnZ9jaoXqhB0XXmkbERZtnl88dk8lQPcGN1l7iIe6gy1Jrge80g6vRuMIZcFcGiPCimZ-TG3CZ0LgAUGK9Ymq74UOrcfvYJkvuWU7PpqS2lY49Q4Ty-zs68gfZBYquEC7rpYxr2p-8W8xWvCUhOxOzojk39loV8UUyv_Zp4J00N5ghknzpCiu21gJqv3t--HFvixHqFTLWYYuNWYV3mOft3-PFvzg70ykLAWqF0dI5yuGudoibxvejT81r_deAqPlXB8s76EabEptXq4avD-6wpOhlRFd9o-zgfL9-gfRwRquuIzEcwr89UyZbPYTMMe9P2pUCykNx7wtGKpiJ6ayyM3F_bqmoq8rtMMYL0nBauIviHi-5SRgri2-IbzTl3trwDt1sqiHyZsv-ebDvcpNhdtYztwesFn3W7mYx3tvrfu-lylgbP12kLPfPAaz7jwric8YV4PClAT372bZfvgRR-6k_RpXWJ1x3AOhQ6Y49_Y5UyCu3lF0_iQ8EeLbE7ZzEdNmJlODajpvizxWrbKJksH51_xQFwQfmPsya-CP1v_v-Cdb55ioJ71Z5ePWicC78S7YB5lZFe1r39c1z6iLmAfMO5Kia5NB1fYmXNCjMGXYjKMirG9_Q4FsMwiH0JNFLH6cTGLvOMq3osIFLb7LgXMnb4Ug239-XhowOCNG7R6y5SPNwDNgc0mi1GgRjzSkuFdzDHwF24zR3q1WZLDErYC9NY42WBfa6TKeNLC6CuG4rs0QIGXGoIK6yyYOXin9GQh40hP1aUPHNMiWiifG6L7Hjxj3ch45pumX6bIP3PdyG0uGXCfO6GC9iCqY4Z59ULAFX4dy6Paot2PnklfmjVHRmWsjILEgBFa8sUfdDPdMvDanVwuoKm5A4e-PhbLVuMX4i_vTgtzgo1jKLPJ9SF2qccFOke5PTNsgUFhgE34oAMrpKBfjtCa7nhFAMD5ppi9h4XzbkvI8jhRyISzxVdRslEcXWh5R7i5dAe7Axmuh5YY7hBWZdSFrkp6S0ZOF68u-c7BmY5bubcj2OjYY8ZgFNL3Iyc-PhYFCHUlM24SPFnfugyM2hczZJ6wO93AzvR6Gc7qX633uw7w-FYRcSccJcWyFj7FLX-fqtOUocja-r5m61lZJY8dGq8sLecvgC9jrKnLhmvewODBEZmAjSis4-IpWQuQhDBSywuzgIAlol8gmD5T7bcaP836JHMbTaoqH_SWMpFMrY2qm6M2VOxxzwDOPOCaz8sp6Gm6FaFoinhjWLlUUIDD4JPfee9lGgZhOjl11USO2yYlfe_b2ZdtsUQXisQyRx7IKyPgdZ9ucJK3KBlCMa8MuNgtbMt2jKeifadojwGz7jqzUzkXzQ6V2drCpVdtozMXGuciuXuE-JqnrdgyTO5T19wjZcSzdWzjtcGQxHAxZIwNdsHywfqUzbSC7s-19fUEcKCONexNHYbXeDzJXx9jX63HH4GCxih5gwxlPlikphORB4hR1mdjkGKIfn55WPce9fFEoScu_HEBvZEmR4sXpbCsYlm7lPpfFEFb5SurLsM2DED97BPCMVw7LyViKmqRggpr4D-_SyJ4rnSO8bQns0bbfyWr0BvL6ZHGGNx5SbEIyrR4IjyTMOuj7iVcv7DaNjb8hV1nO4cFs1J2XphqzkEefjISxwTq6F2YsV1uaoCnyWMNG3c2KUCTkucNBrb2oVRl4fK74DE19BvaHbk5sS7vYhnLdZR4VugfhkNPaw_xkNer7S16ADeJbJDcMIqTuDLRUFoX1Khee_ftuARXXn7wGjltZCOITiwihbIBrcu8jIlSFc6WL7SA5vYJXyWLR4rr7r8r_Q3I0BgPCeQythDAkwcP_Y3hbtlxWR5IiEuPLgRZVBAw8HjRQnzDgYTWe4aqU_RAK8A6r-aU41G7AU5HsRn124eN_0m00)
+- The Core System is the heart of the whole project, it will contain all the services, components, gateway, etc,.. to create a functional web application which include:
+	+ Single Page Web Application: the UIs to show all the web application’s features to users.
+	+ API Gateway: routing requests to specific destination service to handle the requests.
+	+ Catalog Service: provides Driving Test features through JSON/HTTPS API.
+	+ File Service: allow files uploading to the storage system.
+	+ Account Service: store users information.
+	+ Notification Service: send emails to users about exam infos, account activities, etc...
+- Besides the main services, the system also needs the support from external services, technologies:
+	+ Minio Storage: the external storage provider.
+	+ Redis: the cache engine for all the services of the application.
+	+ Kafka: the message brker for all the services of the application.
+	+ Postgresql: the database to manage data of all the services of the application.
+	+ Consul Service Registry: Discover services with DNS or HTTP.
+	+ Keycloak Identity Server: the external identity provider.
+

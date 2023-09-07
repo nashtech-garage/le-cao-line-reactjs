@@ -1,0 +1,28 @@
+version: '3.7'
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: tnminio
+    volumes:
+      - /root/minio-data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    environment:
+      MINIO_ROOT_USER: ReactStorage
+      MINIO_ROOT_PASSWORD: M!nRM@t2345k34P%6o
+      MINIO_SERVER_URL: "https://data.omtest.online"
+      MINIO_BROWSER_REDIRECT_URL: "https://minio.omtest.online"
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "curl",
+          "-f",
+          "http://localhost:9000/minio/health/live"
+        ]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+    restart: unless-stopped
