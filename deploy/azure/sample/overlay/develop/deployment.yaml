@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: demo
+  name: demo
+spec:
+  #replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: demo
+  template:
+    metadata:
+      labels:
+        app: demo
+    spec:
+      #  imagePullSecrets:
+      #   - name: demo-registry
+       containers:
+        - name: demo
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          image: vuongnv/hellokube:latest
+          resources:
+            limits:
+              memory: "1024Mi"
+              # cpu: "2000m"
+            # requests:
+            #   memory: "100Mi"
+            #   cpu: "100m"

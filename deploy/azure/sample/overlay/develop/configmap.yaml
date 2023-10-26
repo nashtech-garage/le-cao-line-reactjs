@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: demo-configmap
+data:
+    ConnectionStrings__Default: "Server=postgresql;Port=5432;Database=demodev;User Id=postgres;Password=cmdfdLSc;"
+    
