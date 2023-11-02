@@ -1,0 +1,33 @@
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: notification-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: notification
+  minReplicas: 1
+  maxReplicas: 2
+  metrics:
+  # - type: Resource
+  #   resource:
+  #     name: cpu
+  #     target:
+  #       type: Utilization
+  #       averageUtilization: 50
+  - type: Resource
+    resource:
+      name: memory
+      target:
+        type: AverageValue
+        averageValue: 900Mi
+  # Uncomment these lines if you create the custom packets_per_second metric and
+  # configure your app to export the metric.
+  # - type: Pods
+  #   pods:
+  #     metric:
+  #       name: packets_per_second
+  #     target:
+  #       type: AverageValue
+  #       averageValue: 100        
