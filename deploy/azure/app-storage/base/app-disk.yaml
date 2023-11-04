@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: app-disk
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: app-storage
+  resources:
+    requests:
+      storage: 10Gi
