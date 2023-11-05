@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-gateway
+data:
+    ConnectionStrings__Default: "Server=postgresql.app-core;Port=32002;Database=catalog;User Id=postgres;Password=reactjs;"
+    
