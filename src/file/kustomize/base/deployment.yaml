@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: file
+  labels:
+    app: file
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: file
+  template:
+    metadata:
+      labels:
+        app: file
+    spec:
+       containers:
+        - name: file
+          envFrom:
+          - secretRef:
+              name: file-secret
+          - configMapRef:
+              name: file-configmap
