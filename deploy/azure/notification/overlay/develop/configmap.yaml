@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: notification-configmap
+data:
+    ConnectionStrings__Default: "Server=postgresql.app-core;Port=32002;Database=catalog;User Id=postgres;Password=reactjs;"
+
+    KafkaSettings__PublishTopic: "tpc-demo-pub"
+    KafkaSettings__SubscribeTopic: "tpc-demo-pub"
+    KafkaSettings__BootstrapServers: "68.183.235.195:9093"
+    KafkaSettings__GroupId: "demo-group"
+    
+    ServiceConfig__serviceDiscoveryAddress: "http://68.183.235.195:8500"
+    ServiceConfig__serviceName: "notification-service"
+    ServiceConfig__serviceId: "s4"
+    ServiceConfig__serviceAddress: "http://localhost:44398"
+
+    EmailSettings__Email: "vanvuong2610@gmail.com"
+    EmailSettings__AccessToken: "eoomjokddgxkglrv"
+    EmailSettings__SmtpServer: "smtp.gmail.com"
+    EmailSettings__Port: "587"
+    EmailSettings__EnableSsl: true
