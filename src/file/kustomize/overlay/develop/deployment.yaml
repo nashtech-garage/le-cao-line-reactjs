@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: file
+  labels:
+    app: file
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: file
+  template:
+    metadata:
+      labels:
+        app: file
+    spec:
+       containers:
+        - name: file
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          image: vuongnv/reactjs-file-service:1.0
+          resources:
+            limits:
+              memory: "1000Mi"
+              cpu: "2000m"
+            requests:
+              memory: "100Mi"
+              cpu: "100m"

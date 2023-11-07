@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: file
+  labels:
+    app: file
+spec:
+  selector:
+    app: file
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

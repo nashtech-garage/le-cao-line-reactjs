@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: file-configmap
+data:
+    ServiceConfig__serviceDiscoveryAddress: "http://consul.app-core.svc.cluster.local:8500"
+    ServiceConfig__serviceName: "file-service"
+    ServiceConfig__serviceId: "s2"
+    ServiceConfig__serviceAddress: "http://file.app-service.svc.cluster.local"
+
+    StorageSetting__BucketName: "public"
+    StorageSetting__Region: "ap-southeast-1"
+    StorageSetting__Domain: "http://minio.app-core.svc.cluster.local"
+    StorageSetting__TemplateFolder: "/wwwroot/tmp"

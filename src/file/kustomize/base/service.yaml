@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: file
+  labels:
+    app: file
+spec:
+  selector:
+    app: file
