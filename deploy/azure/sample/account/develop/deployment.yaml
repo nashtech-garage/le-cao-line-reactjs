@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: account
+  name: account
+spec:
+  #replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: account
+  template:
+    metadata:
+      labels:
+        app: account
+    spec:
+       volumes:
+        - name: account-volume
+          configMap:
+            name: account-configmap
+       containers:
+        - name: account
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          image: vuongnv/reactjs-account
+          resources:
+            limits:
+              memory: "1024Mi"
