@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: keycloak-config
+  namespace: keycloak
+data:
+  KEYCLOAK_REALM: DevOpsRealm
+  KEYCLOAK_USER: admin
+  KEYCLOAK_PASSWORD: admin
+  KEYCLOAK_LOGLEVEL: INFO
