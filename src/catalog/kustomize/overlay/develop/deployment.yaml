@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catalog
+  labels:
+    app: catalog
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: catalog
+  template:
+    metadata:
+      labels:
+        app: catalog
+    spec:
+       containers:
+        - name: catalog
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          image: vuongnv/reactjs-catalog-service:1.0
+          resources:
+            limits:
+              memory: "1000Mi"
+              cpu: "2000m"
+            requests:
+              memory: "100Mi"
+              cpu: "100m"

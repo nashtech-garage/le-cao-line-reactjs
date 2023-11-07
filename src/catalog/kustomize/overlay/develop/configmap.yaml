@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: catalog-configmap
+data:
+    ServiceConfig__serviceName: "catalog-service"
+    ServiceConfig__serviceId: "s2"
