@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+data:
+    POSTGRESQL_ROOT_USERNAME: "postgres"
+    ConnectionStrings__Default: "Server=postgresql;Port=5432;Database=demodev;User Id=postgres;Password=cmdfdLSc;"
+    

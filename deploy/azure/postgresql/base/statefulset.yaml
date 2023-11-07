@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: postgres
+spec:
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      name: postgres
+  serviceName: "postgres"
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: postgres
+    spec:
+      terminationGracePeriodSeconds: 10
+      containers:
+      - name: postgres
+        image: postgres:latest
+        resources:
+          limits:
+            memory: "1000Mi"
+            cpu: "2000m"
+          requests:
+            memory: "100Mi"
+            cpu: "100m"
+        ports:
+          - containerPort: 5432
+        envFrom:
+         - configMapRef:             
+              name: postgres-config
+              key: POSTGRESQL_ROOT_USERNAME
+         - secretRef:
+              name: postgres-secrets
+              key: POSTGRESQL_ROOT_PASSWORD
+        volumeMounts:
+            - name: app-disk
+              mountPath: /data/db
+  volumeClaimTemplates:
+    - metadata:
+        name: app-disk
+      spec:
+        storageClassName: app-storage
+        accessModes:
+          - "ReadWriteOnce"
+        resources:
+          requests:
+            storage: "10Gi"
