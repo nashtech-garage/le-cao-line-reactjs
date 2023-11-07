@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: api-gateway
+  name: api-gateway
+spec:
+  #replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 2
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      labels:
+        app: api-gateway
+    spec:
+       containers:
+        - name: api-gateway
+          imagePullPolicy: Always
+          ports:
+          - containerPort: 80
+          image: vuongnv/reactjs-api-gateway:latest
+          resources:
+            limits:
+              memory: "1000Mi"
+              cpu: "2000m"
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
