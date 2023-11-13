@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: app-service
+data:
+  TZ: Asia/Ho_Chi_Minh
