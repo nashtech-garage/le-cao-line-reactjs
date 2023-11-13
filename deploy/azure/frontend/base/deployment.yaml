@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: app-service
+spec:
+  replicas: 2
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: your-frontend-image:tag
+          resources:
+            limits:
+              memory: '1000Mi'
+              cpu: '2000m'
+            requests:
+              memory: '100Mi'
+              cpu: '100m'
+          envFrom:
+            - configMapRef:
+                name: frontend-config
